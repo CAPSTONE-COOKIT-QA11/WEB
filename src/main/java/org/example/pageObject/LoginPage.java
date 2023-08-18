@@ -54,4 +54,10 @@ public class LoginPage {
     public boolean verHomePage(){
         return homePage.isDisplayed();
     }
+
+    @FindBy(css = ".block span")
+    private WebElement popup;
+    public String showPopUp(){
+        return popup.getText();
+    }
 }

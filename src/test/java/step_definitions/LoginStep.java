@@ -54,4 +54,10 @@ public class LoginStep {
         LoginPage loginPage = new LoginPage(webDriver);
         Assert.assertTrue(loginPage.verHomePage());
     }
+
+    @And("Show {string} as pop-up")
+    public void showAsPopUp(String A) {
+        LoginPage loginPage = new LoginPage(webDriver);
+        Assert.assertEquals(A, loginPage.showPopUp());
+    }
 }
