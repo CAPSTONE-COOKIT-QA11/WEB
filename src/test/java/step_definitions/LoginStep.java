@@ -46,13 +46,14 @@ public class LoginStep {
     public void userClickLoginButton() throws InterruptedException {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.clickBtnLogin();
-        Thread.sleep(1500);
+        Thread.sleep(1000);
     }
 
     @Then("User allready on home page")
-    public void userAllreadyOnHomePage() {
+    public void userAllreadyOnHomePage() throws InterruptedException {
         LoginPage loginPage = new LoginPage(webDriver);
         Assert.assertTrue(loginPage.verHomePage());
+        Thread.sleep(3000);
     }
 
     @And("Show {string} as pop-up")
