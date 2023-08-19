@@ -60,4 +60,9 @@ public class LoginPage {
     public String showPopUp(){
         return popup.getText();
     }
+    @FindBy(xpath = "//button[@class='font-bold hidden sm:flex sm:text-sm lg:font-semibold lg:text-4xl']")
+    private WebElement homePageTitle;
+    public boolean validateHomePageTitle() {
+        return homePageTitle.isDisplayed();
+    }
 }
