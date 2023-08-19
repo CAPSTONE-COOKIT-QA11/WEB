@@ -9,9 +9,7 @@
 </div>
 
 ## 📑 Deskripsi Project
-<p align="justify">Welcome to our API Testing repository for COOKIT API. This project is made for completing group project from Alterra Academy, Quality Engineer Immersive Class. In this project, we perform an API automation testing for three resources from COOKIT API. </p>
-
-Open API https://app.swaggerhub.com/apis/STARCON10_1/ALTA-Cookit-BE/1.0
+<p align="justify">Welcome to our WEB Testing repository for COOKIT WEB. This project is made for completing group project from Alterra Academy, Quality Engineer Immersive Class. In this project, we performan WEB automation testing for three resources from COOKIT WEB. </p>
 
 Open APP https://cookit-immersive.netlify.app/
 
@@ -40,26 +38,26 @@ Open APP https://cookit-immersive.netlify.app/
 ### A. Project Description
     > Project Goal:
       The goal of this project is to create a comprehensive set of manual and automated tests for the 
-      COOKIT API. These tests will help to ensure that the API is working as expected.
+      COOKIT WEB. These tests will help to ensure that the WEB is working as expected.
   
     > Scope:
       The scope of this project includes a number of endpoints and resources exposed by the COOKIT
-      API. This includes the following: Projects, Sections, Tasks, Comments, Labels.
+      WEB. This includes the following: .
     
     > Test Planning:
-      a. Analyze the API documentation for https://app.swaggerhub.com/apis/STARCON10_1/ALTA-Cookit-BE/1.0 
-      to understand its    endpoints, parameters, and expected responses.
+      a. Analyze the WEB documentation for https://app.swaggerhub.com/apis/STARCON10_1/ALTA-Cookit-BE/1.0 
+      to understand its endpoints, parameters, and expected responses.
       b. Identify the key features and functionalities to be tested.
-      c. Define test objectives, test scenarios, and test cases based on the API requirements.
+      c. Define test objectives, test scenarios, and test cases based on the WEB requirements.
 
     > Testing Phase:
       a. Manual testing
          Manual testing will be completed in the first phase. This will involve manually sending 
-         requests to the API and verifying the responses.
+         requests to the WEB and verifying the responses.
    
       b. Automation testing
          Automated testing will be completed in the second phase. This will involve to create automated 
-         tests that can be run against the API.
+         tests that can be run against the WEB.
 
     > Documentation and Reporting:
       a. Document the test cases, test results, and any issues discovered during testing.
