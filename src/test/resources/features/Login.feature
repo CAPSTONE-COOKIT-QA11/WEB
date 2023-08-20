@@ -76,3 +76,4 @@ Feature: Login
     Examples:
       | username   | password |
       | user1      | Asdfg123 |
+

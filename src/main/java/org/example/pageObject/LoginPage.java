@@ -60,6 +60,13 @@ public class LoginPage {
     public String showPopUp(){
         return popup.getText();
     }
+<<<<<<< HEAD
+    @FindBy(xpath = "//button[@class='font-bold hidden sm:flex sm:text-sm lg:font-semibold lg:text-4xl']")
+    private WebElement homePageTitle;
+    public boolean validateHomePageTitle() {
+        return homePageTitle.isDisplayed();
+    }
+=======
 
     @FindBy(css = "[placeholder='Username']")
     private WebElement usernameField;
@@ -79,4 +86,5 @@ public class LoginPage {
         btnVisibility.click();
     }
 
+>>>>>>> d60444607a496bb9977b46a4605fcd02a01766c0
 }
