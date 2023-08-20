@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Comment {
+public class Comments {
     public static WebDriver driver;
 
-    public Comment(WebDriver driver) {
+    public Comments(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }

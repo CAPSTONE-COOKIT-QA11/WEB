@@ -23,7 +23,6 @@ public class Hooks {
         webDriver.manage().window().maximize();
 
     }
-
     @After
     public void closeBrowser() throws InterruptedException {
         Thread.sleep(2000);
