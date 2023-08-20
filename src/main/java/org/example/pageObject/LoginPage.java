@@ -60,4 +60,23 @@ public class LoginPage {
     public String showPopUp(){
         return popup.getText();
     }
+
+    @FindBy(css = "[placeholder='Username']")
+    private WebElement usernameField;
+    public void clickUsernameField(){
+        usernameField.click();
+    }
+
+    @FindBy(css = "[placeholder='Password']")
+    private WebElement passwordField;
+    public void clickPasswordField(){
+        passwordField.click();
+    }
+
+    @FindBy(css = ".absolute")
+    private WebElement btnVisibility;
+    public void clickBtnVisibility(){
+        btnVisibility.click();
+    }
+
 }
