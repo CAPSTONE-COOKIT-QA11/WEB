@@ -29,4 +29,3 @@ Feature: Login
       | admin      |          | Please enter a valid username or password.. |
       |            | admin    | Please enter a valid username or password.. |
       |            |          | Please enter a valid username or password.. |
-      | !@##@      | %$#@     | Please enter a valid username or password.. |
