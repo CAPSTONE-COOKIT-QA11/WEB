@@ -29,6 +29,9 @@ Feature: Login
       | admin      |          | Please enter a valid username or password.. |
       |            | admin    | Please enter a valid username or password.. |
       |            |          | Please enter a valid username or password.. |
+
+      | !@##@      | %$#@     | Please enter a valid username or password.. |
+
       | !@##@      | %$#@     | Please enter a valid username or password.. |
 
   Scenario: Verify "Username" field is enable
@@ -76,4 +79,5 @@ Feature: Login
     Examples:
       | username   | password |
       | user1      | Asdfg123 |
+
 

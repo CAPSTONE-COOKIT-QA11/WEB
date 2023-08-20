@@ -46,7 +46,10 @@ public class LoginStep {
     public void userClickLoginButton() throws InterruptedException {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.clickBtnLogin();
+        Thread.sleep(1500);
+
         Thread.sleep(2000);
+
     }
 
     @Then("User allready on home page")
@@ -61,6 +64,8 @@ public class LoginStep {
         LoginPage loginPage = new LoginPage(webDriver);
         Assert.assertEquals(A, loginPage.showPopUp());
     }
+
+
 
     @And("User click username field")
     public void userClickUsernameField() {
