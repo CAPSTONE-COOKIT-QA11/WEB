@@ -60,9 +60,31 @@ public class LoginPage {
     public String showPopUp(){
         return popup.getText();
     }
+<<<<<<< HEAD
     @FindBy(xpath = "//button[@class='font-bold hidden sm:flex sm:text-sm lg:font-semibold lg:text-4xl']")
     private WebElement homePageTitle;
     public boolean validateHomePageTitle() {
         return homePageTitle.isDisplayed();
     }
+=======
+
+    @FindBy(css = "[placeholder='Username']")
+    private WebElement usernameField;
+    public void clickUsernameField(){
+        usernameField.click();
+    }
+
+    @FindBy(css = "[placeholder='Password']")
+    private WebElement passwordField;
+    public void clickPasswordField(){
+        passwordField.click();
+    }
+
+    @FindBy(css = ".absolute")
+    private WebElement btnVisibility;
+    public void clickBtnVisibility(){
+        btnVisibility.click();
+    }
+
+>>>>>>> d60444607a496bb9977b46a4605fcd02a01766c0
 }
