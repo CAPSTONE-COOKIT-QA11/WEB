@@ -18,10 +18,9 @@ public class LoginStep {
     }
 
     @Given("User allready on landing page")
-    public void userAllreadyOnLandingPage() throws InterruptedException {
+    public void userAllreadyOnLandingPage() {
         LoginPage loginPage = new LoginPage(webDriver);
         Assert.assertTrue(loginPage.verLandingPage());
-        Thread.sleep(3000);
     }
 
     @When("User click sign in button")
@@ -48,6 +47,9 @@ public class LoginStep {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.clickBtnLogin();
         Thread.sleep(1500);
+
+        Thread.sleep(2000);
+
     }
 
     @Then("User allready on home page")
@@ -61,5 +63,37 @@ public class LoginStep {
     public void showAsPopUp(String A) {
         LoginPage loginPage = new LoginPage(webDriver);
         Assert.assertEquals(A, loginPage.showPopUp());
+    }
+
+
+
+    @And("User click username field")
+    public void userClickUsernameField() {
+        LoginPage loginPage = new LoginPage(webDriver);
+        loginPage.clickUsernameField();
+    }
+
+    @When("User input {string} as username")
+    public void userInputAsUsername(String usName) {
+        LoginPage loginPage = new LoginPage(webDriver);
+        loginPage.setUserName(usName);
+    }
+
+    @And("User click password field")
+    public void userClickPasswordField() {
+        LoginPage loginPage = new LoginPage(webDriver);
+        loginPage.clickPasswordField();
+    }
+
+    @And("User click visibility button on password field")
+    public void userClickVisibilityButtonOnPasswordField() {
+        LoginPage loginPage = new LoginPage(webDriver);
+        loginPage.clickBtnVisibility();
+    }
+
+    @When("User input {string} as password")
+    public void userInputAsPassword(String pass) {
+        LoginPage loginPage = new LoginPage(webDriver);
+        loginPage.setPassword(pass);
     }
 }

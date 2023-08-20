@@ -16,12 +16,10 @@ public class Hooks {
         ChromeOptions co = new ChromeOptions();
         WebDriverManager.chromedriver().setup();
         co.addArguments("--remote-allow-origins=*");
-
         webDriver = new ChromeDriver(co);
         String URL = "https://cookit-immersive.netlify.app/";
         webDriver.get(URL);
         webDriver.manage().window().maximize();
-
     }
     @After
     public void closeBrowser() throws InterruptedException {
