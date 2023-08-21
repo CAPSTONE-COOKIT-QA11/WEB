@@ -1,6 +1,7 @@
 @Comment
 Feature: add comment
   #Positif Testcase
+  @Cookit
   Scenario: add comment with comment description and image
     Given User allready on landing page
     When User click sign in button
@@ -16,6 +17,7 @@ Feature: add comment
     And user click submit button
 
     #Positif TestCase
+  @Cookit
   Scenario: add comment withou image
     Given User allready on landing page
     When User click sign in button
@@ -30,6 +32,7 @@ Feature: add comment
     And user click submit button
 
     #Negatif TestCase (BUG FE)
+  @Cookit
   Scenario: add comment without comment and image
     Given User allready on landing page
     When User click sign in button

@@ -1,5 +1,6 @@
 @Logout
   Feature: Logout account
+    @Cookit
     Scenario: Success logout account
       Given User allready on landing page
       When User click sign in button
@@ -12,6 +13,7 @@
       And User click Yes
       Then User allready on login page
 
+    @Cookit
     Scenario: Cancel logout account
       Given User allready on landing page
       When User click sign in button

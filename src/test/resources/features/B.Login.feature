@@ -1,5 +1,6 @@
 @Login
 Feature: Login
+  @Cookit
   Scenario Outline: Login with valid username and password
     Given User allready on landing page
     When User click sign in button
@@ -8,12 +9,12 @@ Feature: Login
     And User click login button
     Then User allready on home page
     Examples:
-      | username   | password |
-      | admin      | admin    |
-      | user1      | Asdfg123 |
-      | userverif1 | Asdfg123 |
+      | username  | password  |
+      | admin     | admin     |
+      | user1     | Asdfg123  |
+      | Arum11223 | Arum34561 |
 
-
+  @Cookit
   Scenario Outline: Login with invalid username and password
     Given User allready on landing page
     When User click sign in button
@@ -34,12 +35,14 @@ Feature: Login
 
       | !@##@      | %$#@     | Please enter a valid username or password.. |
 
+  @Cookit
   Scenario: Verify "Username" field is enable
     Given User allready on landing page
     When User click sign in button
     Then User allready on login page
     And User click username field
 
+  @Cookit
   Scenario Outline: Input alphabet, numeric, and special char on "Username" field
     Given User allready on landing page
     When User click sign in button
@@ -51,12 +54,14 @@ Feature: Login
       | 12389    |
       | !@#$     |
 
+  @Cookit
   Scenario: Verify "Password" field is enable
     Given User allready on landing page
     When User click sign in button
     Then User allready on login page
     And User click password field
 
+  @Cookit
   Scenario Outline: Input alphabet, numeric, and special char on "Password" field
     Given User allready on landing page
     When User click sign in button
@@ -68,6 +73,7 @@ Feature: Login
       | 12389    |
       | !@#$     |
 
+  @Cookit
   Scenario Outline: Verify visibility is enable
     Given User allready on landing page
     When User click sign in button

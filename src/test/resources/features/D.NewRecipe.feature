@@ -1,10 +1,11 @@
 @NewRecipe
   Feature: Add New Recipe
+    @Cookit
     Scenario Outline: Add new recipe with valid data
       Given User allready on landing page
       When User click sign in button
       Then User allready on login page
-      When User input "userverif1" as username and "Asdfg123" as password
+      When User input "Arum11223" as username and "Arum34561" as password
       And User click login button
       Then User allready on home page
       And User click new post button
@@ -27,11 +28,12 @@
         | recipe title | description                   | first ingredient name | first ingredient quantity | first ingredient unit | second ingredient name | second ingredient quantity | second ingredient unit | first step      | second step   | price |
         | Sate Kelinci | Terbuat dari kelinci tetangga | Kelinci Betina        | 3                         | Ekor                  | Kelinci Jantan         | 1                          | Ekor                   | Siapkan Kelinci | Siapkan Bumbu | 50000 |
 
+    @Cookit
     Scenario Outline: Add new recipe with invalid data
       Given User allready on landing page
       When User click sign in button
       Then User allready on login page
-      When User input "userverif1" as username and "Asdfg123" as password
+      When User input "Arum11223" as username and "Arum34561" as password
       And User click login button
       Then User allready on home page
       And User click new post button
