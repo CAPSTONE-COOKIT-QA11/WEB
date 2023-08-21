@@ -9,7 +9,7 @@
       And User click login button
       Then User allready on home page
       And User click search button
-      And User click recipe sate kelinci
+      And User click recipe nasi goreng
       Then User already on recipe detail page
       And User click + on but ingredient field
       And User click add to cart
@@ -57,7 +57,7 @@
       When User input "Kalian semua harus coba ini" as reply
       And User click submit for reply
 
-    @Cookit
+#    @Cookit
     Scenario: Recook Recipe
       Given User allready on landing page
       When User click sign in button

@@ -31,7 +31,7 @@ Feature: add comment
     And user input comment on comment field "Maknyuss"
     And user click submit button
 
-    #Negatif TestCase (BUG FE)
+#    #Negatif TestCase (BUG FE)
   @Cookit
   Scenario: add comment without comment and image
     Given User allready on landing page

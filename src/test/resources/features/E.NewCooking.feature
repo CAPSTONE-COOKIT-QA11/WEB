@@ -30,7 +30,7 @@ Feature: New Cooking
     And user click submit new Cooking
     Then user already on dashboard page
 
-#Negatif TestCase (BUG BE)
+##Negatif TestCase (BUG BE)
   @Cookit
   Scenario: add new Cooking Without Description and Image
     Given User allready on landing page

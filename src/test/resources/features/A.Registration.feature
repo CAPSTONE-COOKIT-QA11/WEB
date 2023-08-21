@@ -10,7 +10,7 @@ Feature: Register
     And User click sign up button on register page
   Examples:
     | username    | email                 | password    |
-    | AgusTamak12 | Agustamak12@gmail.com | Agustamak12 |
+    | AgusTamak15 | Agustamak15@gmail.com | Agustamak15 |
 
 #Negatif Test Case
   @Cookit

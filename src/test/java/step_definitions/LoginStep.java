@@ -18,9 +18,10 @@ public class LoginStep {
     }
 
     @Given("User allready on landing page")
-    public void userAllreadyOnLandingPage() {
+    public void userAllreadyOnLandingPage() throws InterruptedException {
         LoginPage loginPage = new LoginPage(webDriver);
         Assert.assertTrue(loginPage.verLandingPage());
+        Thread.sleep(1500);
     }
 
     @When("User click sign in button")

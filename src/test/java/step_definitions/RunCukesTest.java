@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        tags = "@Comment",
+        tags = "@Cookit",
 
         features = {"classpath:features/"},
         glue = { "classpath:step_definitions"},

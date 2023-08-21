@@ -37,7 +37,7 @@ public class NewCookingStep {
     @And("input image new cooking")
     public void inputImageNewCooking() throws InterruptedException {
         WebElement X = webDriver.findElement(By.xpath("//input[1]"));
-        String V = "C:/Users/Tris jansen/Downloads/sambal-terasi-1-1024x1024.jpg";
+        String V = "D:/WEB Cookit/src/test/resources/Image/sambalTerasi.jpg";
         X.sendKeys(V);
         Thread.sleep(3000);
         }

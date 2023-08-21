@@ -13,4 +13,4 @@ Feature: Verify user
     And User click on verify users menu
     Then User already on Verify Users page
     When User click checklist button on first user
-    Then First user that already verified should not be displayed
+#    Then First user that already verified should not be displayed

@@ -40,7 +40,7 @@ public class CommentsStep {
     @When("user click increase image button")
     public void userClickIncreaseImageButton() throws InterruptedException {
         WebElement A = webDriver.findElement(By.xpath("//input[1]"));
-        String X = "D:/WEB New/src/test/resources/Image/Jempol.jpg";
+        String X = "D:/WEB Cookit/src/test/resources/Image/Jempol.jpg";
         A.sendKeys(X);
         Thread.sleep(3000);
     }
