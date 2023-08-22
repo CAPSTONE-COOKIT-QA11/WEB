@@ -4,7 +4,7 @@
     <img src="https://i.imgur.com/vZfkIIt.png" alt="Logo" height="80">
     </a>
   <br/>
-    <br>API Testing with RestAssured and SerenityBDD
+    <br>WEB Testing 
     <br />
     <br />
   </p>
