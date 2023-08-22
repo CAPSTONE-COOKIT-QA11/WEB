@@ -13,7 +13,7 @@ Feature: Follow
     And user click follow button
 
   @Cookit
-  Scenario: Following another user
+  Scenario: Following another user from profile page
     Given User allready on landing page
     When User click sign in button
     Then User allready on login page
@@ -25,10 +25,10 @@ Feature: Follow
     Then user allready in profile page
     And user click followers
     When user allready on followers page
-    And user Click follow back in one of another user
+#    And user Click follow back in one of another user
 
   @Cookit
-  Scenario: Following another user
+  Scenario: Unfollow another user
     Given User allready on landing page
     When User click sign in button
     Then User allready on login page

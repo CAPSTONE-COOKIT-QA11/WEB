@@ -9,8 +9,8 @@ Feature: Register
     When User input "<username>" as username and "<email>" as email and "<password>" as password
     And User click sign up button on register page
   Examples:
-    | username    | email                 | password    |
-    | AgusTamak15 | Agustamak15@gmail.com | Agustamak15 |
+    | username    | email                 | password   |
+    | AgusTamak20 | Agustamak20@gmail.com | Agustamak20 |
 
 #Negatif Test Case
   @Cookit

@@ -15,7 +15,7 @@ Feature: Edit Profile User
     And user click pen and paper logo on profile information
     Then user already on Edit Profile page
     And user Change and input new username "MakananLocal"
-    And user input Bio in bio field "LuarBiasaEnakkk"
+    And user input Bio in bio field "LuarBiasaMantaps"
     And user click save button
 
 #POSITIFCASE
