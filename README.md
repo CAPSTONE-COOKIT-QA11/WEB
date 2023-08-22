@@ -70,7 +70,8 @@ Open APP https://cookit-immersive.netlify.app/
 
 ![gambar](https://github.com/CAPSTONE-COOKIT-QA11/WEB/assets/124779557/58f6c34b-e541-4064-9911-1f6a3ca5cd04)
 
-![gambar](https://github.com/CAPSTONE-COOKIT-QA11/WEB/assets/124779557/6fc15b6a-8d4a-4b62-b157-42d17414702c)
+![gambar](https://github.com/CAPSTONE-COOKIT-QA11/WEB/assets/124779557/90715448-abec-4233-8023-8bc5458b00f4)
+
 
 
 ### C. Coverage of Each Feature
